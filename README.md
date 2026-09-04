@@ -111,6 +111,12 @@ The repository separates planning artefacts from the main project documentation.
 
 This structure makes it easier to locate the information needed for planning, validation and future development.
 
+## Conclusion
+
+The Part 1 planning provides a clear foundation for the RaceDay system. The database design, API planning, workflow and role requirements work together to describe how the main features should operate.
+
+The next stage will focus on turning this plan into a working application while testing that the implemented features remain consistent with the original design.
+
 ## Before submitting
 
 1. Create a GitHub repository and upload this project.
