@@ -39,6 +39,8 @@ After an enrolment is created, the related payment can be recorded. Once the rac
 - `docs/RaceDay_Endpoint_Plan.md` — planned REST API routes, roles, request bodies and responses.
 - `docs/RaceDay_Database.sql` — SQL Server schema, constraints and realistic seed data.
 
+Each artefact supports a different part of the system design. The ERD provides the visual structure of the database, the endpoint plan describes how the application will communicate with the backend, and the SQL script provides the database implementation that can be tested in SQL Server.  
+
 The ERD and SQL match exactly: `Users`, `Events`, `Categories`, `Enrolments`, `Results` and `Payments`. The many-to-many relationship between participants and race categories is resolved by `Enrolments`.
 
 ## CI/CD
