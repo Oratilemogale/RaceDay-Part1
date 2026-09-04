@@ -99,6 +99,12 @@ During Part 2, the main RaceDay features should be tested using realistic user s
 
 Testing should also check role-based access and validation so that users cannot perform actions outside their responsibilities or submit incomplete information.
 
+## Maintenance considerations
+
+The project documentation should be kept updated as the application develops. If database tables, API endpoints or system roles change during implementation, the relevant planning documents and README should also be updated.
+
+Keeping the documentation consistent with the implementation will make the project easier to understand and maintain.
+
 ## Before submitting
 
 1. Create a GitHub repository and upload this project.
