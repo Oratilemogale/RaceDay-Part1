@@ -45,6 +45,12 @@ The ERD and SQL match exactly: `Users`, `Events`, `Categories`, `Enrolments`, `R
 
 The relationships are designed to keep the data connected across the race process. An organiser can have multiple events, an event can contain multiple categories, and participants can enrol in categories through the Enrolments entity. Payments and results are associated with the relevant enrolment so that each participant's race information can be traced back to the correct event.
 
+## Data integrity
+
+The database design uses primary keys to uniquely identify records and foreign keys to maintain relationships between related entities. Required fields and constraints are used where appropriate to reduce incomplete or invalid records.
+
+This approach helps ensure that enrolments, payments and results cannot become disconnected from the users, events and categories they belong to.
+
 ## CI/CD
 
 The GitHub Actions workflow at `.github/workflows/docs-validation.yml` checks that the three required planning files exist and that the core SQL tables are present on every push and pull request.
