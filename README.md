@@ -105,6 +105,12 @@ The project documentation should be kept updated as the application develops. If
 
 Keeping the documentation consistent with the implementation will make the project easier to understand and maintain.
 
+## Documentation structure
+
+The repository separates planning artefacts from the main project documentation. Database-related files are stored in the `docs` folder, while workflow configuration is maintained in the GitHub Actions area.
+
+This structure makes it easier to locate the information needed for planning, validation and future development.
+
 ## Before submitting
 
 1. Create a GitHub repository and upload this project.
