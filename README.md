@@ -81,6 +81,12 @@ In Part 2, the planning documents will be used as a guide for developing the act
 
 Testing will also be important to confirm that users can complete the expected race-event workflow without creating invalid or incomplete records.
 
+## User experience considerations
+
+The system should keep the race registration process straightforward for participants. Important information such as event details, categories, enrolment status and results should be easy to understand and access.
+
+For organisers, the system should make it clear which events and race information they are responsible for managing. Clear validation messages should also help users correct mistakes when entering information.
+
 ## Before submitting
 
 1. Create a GitHub repository and upload this project.
