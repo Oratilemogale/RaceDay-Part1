@@ -63,6 +63,12 @@ The GitHub Actions workflow at `.github/workflows/docs-validation.yml` checks th
 
 The validation workflow provides an early check that the main planning artefacts have not been accidentally removed or renamed. This gives the project a basic automated quality check before the repository is submitted.
 
+## Technology notes
+
+The database planning is based on SQL Server and the API is planned as a REST-style backend. The endpoint structure is intended to provide clear separation between user, event, category, enrolment, payment and result operations.
+
+The planning documents are kept independent from the final application code so that they can be used as a reference during Part 2 implementation.
+
 ## Before submitting
 
 1. Create a GitHub repository and upload this project.
