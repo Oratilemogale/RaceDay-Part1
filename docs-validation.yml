@@ -1,0 +1,23 @@
+name: Validate planning documents
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify required Part 1 files
+        run: |
+          test -f docs/RaceDay_ERD.png
+          test -f docs/RaceDay_Endpoint_Plan.md
+          test -f docs/RaceDay_Database.sql
+      - name: Verify SQL contains core schema statements
+        run: |
+          grep -qi 'CREATE TABLE.*Users' docs/RaceDay_Database.sql
+          grep -qi 'CREATE TABLE.*Events' docs/RaceDay_Database.sql
+          grep -qi 'CREATE TABLE.*Categories' docs/RaceDay_Database.sql
+          grep -qi 'CREATE TABLE.*Enrolments' docs/RaceDay_Database.sql
+          grep -qi 'CREATE TABLE.*Results' docs/RaceDay_Database.sql
