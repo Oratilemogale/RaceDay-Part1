@@ -27,6 +27,12 @@ The planning also focuses on role-based access so that organisers can manage the
 - **Results management:** organisers can capture race results and participants can view public results.
 - **Role-based access:** actions are restricted according to whether the user is an organiser or participant.
 
+## RaceDay workflow
+
+The main workflow starts when an organiser creates an event and adds one or more race categories. Participants can then view available events, choose a category and create an enrolment.
+
+After an enrolment is created, the related payment can be recorded. Once the race has taken place, the organiser can capture the participant's result. The participant can then view the result as part of the public race results.
+
 ## Planning artefacts
 
 - `docs/RaceDay_ERD.png` — ERD with six entities, their attributes, keys and relationship cardinalities.
