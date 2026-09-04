@@ -61,6 +61,8 @@ The payment and result records are linked to enrolments so that the system can k
 
 The GitHub Actions workflow at `.github/workflows/docs-validation.yml` checks that the three required planning files exist and that the core SQL tables are present on every push and pull request.
 
+The validation workflow provides an early check that the main planning artefacts have not been accidentally removed or renamed. This gives the project a basic automated quality check before the repository is submitted.
+
 ## Before submitting
 
 1. Create a GitHub repository and upload this project.
