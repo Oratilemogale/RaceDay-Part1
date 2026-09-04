@@ -75,6 +75,12 @@ Role-based access is an important part of the RaceDay design. Organiser actions 
 
 The final application should also validate user input and protect operations that create or update race information. These considerations will be carried into the Part 2 implementation.
 
+## Future implementation
+
+In Part 2, the planning documents will be used as a guide for developing the actual RaceDay application. The database structure, API endpoints and role requirements will need to be implemented and tested together.
+
+Testing will also be important to confirm that users can complete the expected race-event workflow without creating invalid or incomplete records.
+
 ## Before submitting
 
 1. Create a GitHub repository and upload this project.
