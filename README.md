@@ -69,6 +69,12 @@ The database planning is based on SQL Server and the API is planned as a REST-st
 
 The planning documents are kept independent from the final application code so that they can be used as a reference during Part 2 implementation.
 
+## Security considerations
+
+Role-based access is an important part of the RaceDay design. Organiser actions should be limited to the events they are responsible for, while participants should only be able to manage their own profile and eligible enrolments.
+
+The final application should also validate user input and protect operations that create or update race information. These considerations will be carried into the Part 2 implementation.
+
 ## Before submitting
 
 1. Create a GitHub repository and upload this project.
