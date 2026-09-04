@@ -93,6 +93,12 @@ At this stage, RaceDay is focused on system planning rather than a completed app
 
 The planning documents provide the foundation for these features, but the final behaviour will depend on the Part 2 development and testing process.
 
+## Testing approach
+
+During Part 2, the main RaceDay features should be tested using realistic user scenarios. This should include creating events, enrolling participants, recording payments and adding race results.
+
+Testing should also check role-based access and validation so that users cannot perform actions outside their responsibilities or submit incomplete information.
+
 ## Before submitting
 
 1. Create a GitHub repository and upload this project.
