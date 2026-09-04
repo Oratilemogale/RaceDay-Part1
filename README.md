@@ -87,6 +87,12 @@ The system should keep the race registration process straightforward for partici
 
 For organisers, the system should make it clear which events and race information they are responsible for managing. Clear validation messages should also help users correct mistakes when entering information.
 
+## Project limitations
+
+At this stage, RaceDay is focused on system planning rather than a completed application. Some features, such as authentication, detailed validation and the user interface, still need to be developed and tested during implementation.
+
+The planning documents provide the foundation for these features, but the final behaviour will depend on the Part 2 development and testing process.
+
 ## Before submitting
 
 1. Create a GitHub repository and upload this project.
