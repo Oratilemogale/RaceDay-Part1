@@ -51,6 +51,12 @@ The database design uses primary keys to uniquely identify records and foreign k
 
 This approach helps ensure that enrolments, payments and results cannot become disconnected from the users, events and categories they belong to.
 
+## Planning assumptions
+
+The planning assumes that each participant has one user account and that organisers are responsible for managing the events assigned to them. A race category belongs to a specific event, while an enrolment connects a participant to the category they selected.
+
+The payment and result records are linked to enrolments so that the system can keep the race information organised around each participant's entry.
+
 ## CI/CD
 
 The GitHub Actions workflow at `.github/workflows/docs-validation.yml` checks that the three required planning files exist and that the core SQL tables are present on every push and pull request.
