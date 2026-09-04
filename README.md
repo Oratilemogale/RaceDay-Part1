@@ -43,6 +43,8 @@ Each artefact supports a different part of the system design. The ERD provides t
 
 The ERD and SQL match exactly: `Users`, `Events`, `Categories`, `Enrolments`, `Results` and `Payments`. The many-to-many relationship between participants and race categories is resolved by `Enrolments`.
 
+The relationships are designed to keep the data connected across the race process. An organiser can have multiple events, an event can contain multiple categories, and participants can enrol in categories through the Enrolments entity. Payments and results are associated with the relevant enrolment so that each participant's race information can be traced back to the correct event.
+
 ## CI/CD
 
 The GitHub Actions workflow at `.github/workflows/docs-validation.yml` checks that the three required planning files exist and that the core SQL tables are present on every push and pull request.
