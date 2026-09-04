@@ -3,7 +3,11 @@
 RaceDay is a role-based race-event management system. The system helps organisers set up running events, create race categories, view entries and capture results. Participants can find events, enter a category, record a payment and view results.
 
 This is the planning work for Part 1. The design is deliberately simple enough to be implemented in Part 2, while still covering the full RaceDay workflow.
+## System objectives
 
+The main objective of RaceDay is to provide a simple system for managing race events from creation through to results. The system is designed to reduce manual administration by keeping participant enrolments, payments and race results connected to the correct event and category.
+
+The planning also focuses on role-based access so that organisers can manage their own events while participants can manage their own profiles and enrolments.
 ## System roles
 
 - **Organiser:** creates and manages only their own events and categories, views enrolments for those events, and records or corrects results.
