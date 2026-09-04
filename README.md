@@ -19,6 +19,14 @@ The planning also focuses on role-based access so that organisers can manage the
 - **Organiser:** creates and manages only their own events and categories, views enrolments for those events, and records or corrects results.
 - **Participant:** registers an account, updates their profile, enters available categories, records payment, cancels their own eligible enrolment, and views public results.
 
+## Key system features
+
+- **Event management:** organisers can create and manage race events and their categories.
+- **Participant enrolment:** participants can select an available race category and create an enrolment.
+- **Payment recording:** payment information is linked to the participant's enrolment.
+- **Results management:** organisers can capture race results and participants can view public results.
+- **Role-based access:** actions are restricted according to whether the user is an organiser or participant.
+
 ## Planning artefacts
 
 - `docs/RaceDay_ERD.png` — ERD with six entities, their attributes, keys and relationship cardinalities.
