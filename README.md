@@ -7,6 +7,12 @@ This is the planning work for Part 1. The design is deliberately simple enough t
 
 The main objective of RaceDay is to provide a simple system for managing race events from creation through to results. The system is designed to reduce manual administration by keeping participant enrolments, payments and race results connected to the correct event and category.
 
+## System scope
+
+For Part 1, the system scope focuses on the planning and design of the core race-event workflow. This includes user roles, event and category management, participant enrolments, payment records and race results.
+
+The project does not include the completed application interface or full backend implementation yet. These parts are intended for Part 2, using the planning documents created in this stage.
+
 The planning also focuses on role-based access so that organisers can manage their own events while participants can manage their own profiles and enrolments.
 ## System roles
 
